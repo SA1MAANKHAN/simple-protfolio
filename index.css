@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  min-width: 600px;
+  max-width: 700px;
+}
+
+ul, li, a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h1, h2, h3 {
+  margin: 1rem 0;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header_left {
+  flex: 0.3;
+}
+.header .header_right {
+  flex: 0.5;
+}
+.header .header_right ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .header_right ul li {
+  margin: 0.5rem;
+}
+
+.projects .projects_details_container .project_details .project_info {
+  display: flex;
+}
+.projects .projects_details_container .project_details .project_info .description {
+  width: 50%;
+}
+.projects .projects_details_container .project_details .project_info .image_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.projects .projects_details_container .project_details .project_info .image_link img {
+  height: 12rem;
+  width: 12rem;
+  margin-bottom: 2rem;
+}
+.projects .projects_details_container .project_details .project_info .image_link a {
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+}/*# sourceMappingURL=index.css.map */
